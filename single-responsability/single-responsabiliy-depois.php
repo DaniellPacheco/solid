@@ -1,5 +1,7 @@
 <?php
 
+// Exemplo com SOLID
+
 class Funcionario {
     private string $nome;
     private string $matricula;
@@ -65,6 +67,8 @@ class CalculadoraSalario {
         return round(($inss/100)*$salarioBruto, 2);
     }
     
+    // Outros métodos sem perde o princípio da responsabilidade única
+    public function calcularIRPF() {}
         
 }
 

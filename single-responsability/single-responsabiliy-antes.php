@@ -1,5 +1,7 @@
 <?php
 
+// Exemplo sem SOLID
+
 class Funcionario {
     private string $nome;
     private string $matricula;
