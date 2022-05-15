@@ -165,6 +165,6 @@ class Pedido {
     }
 }
 
-$pedido = new Pedido(new DateTime(), [new Item(40.50, 2), new Item(90.20, 18)], new Sedex());
+$pedido = new Pedido(new DateTime(), [new Item(40.50, 2), new Item(90.20, 18)], new Pac());
 echo $pedido->getFrete()->getValorFrete().PHP_EOL;
 echo $pedido->getFrete()->getDataEntrega()->format("d/m/Y");
