@@ -1,6 +1,6 @@
 <?php
 
-// Contravariância
+// Contravariância 
 
 class Alimento {}
 class AlimentoAnimal extends Alimento {}

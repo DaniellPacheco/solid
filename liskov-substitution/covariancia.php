@@ -1,6 +1,6 @@
 <?php
 
-// Covariância
+// Covariância  
 
 abstract class Animal {
     protected string $nome;

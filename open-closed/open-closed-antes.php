@@ -1,6 +1,6 @@
 <?php
 
-// Exemplo sem SOLID
+// Exemplo sem SOLID 
 
 class Item {
     public float $valor;

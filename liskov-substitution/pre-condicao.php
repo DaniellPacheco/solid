@@ -51,4 +51,4 @@ echo $calculadora->data($dias)->format('d/m/Y') . PHP_EOL;
 
 // Inválido
 $calculadora = new CalculadoraPrazoCPC();
-echo $calculadora->data($dias)->format('d/m/Y') . PHP_EOL;
+echo $calculadora->data($dias)->format('d/m/Y') . PHP_EOL;  

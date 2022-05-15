@@ -55,7 +55,7 @@ function testar(Dono $dono)
     try {
         $dono->alimentar(new Animal(), new Comida(new DateTime('yesterday')));
     } catch (ComidaBaixaQualidadeException $ex) {
-        echo "comida de baixa qualidade";
+        echo "comida de baixa qualidade"; 
     }
 }
 
